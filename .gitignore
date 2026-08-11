@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# API keys — 永远不要提交真实 key
+.env
+
+# 运行输出
+out/
+sorted/
+*_sifted/
+*.log
+
+# 真实约拍照片示例（含客人肖像，默认不进公开仓库）
+examples/preview/
+
+# 运行时下载的模型文件
+models/
+
+# 系统
+.DS_Store
+Thumbs.db
